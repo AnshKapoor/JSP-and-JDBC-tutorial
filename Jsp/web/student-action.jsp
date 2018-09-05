@@ -12,6 +12,6 @@
         <title>Confirmation Page</title>
     </head>
     <body>
-        Registration Confirmed for ${param.student-name} belonging to class ${param.student-class}
+        Registration Confirmed for ${param.studentname} belonging to class ${param.studentclass}
     </body>
 </html>
