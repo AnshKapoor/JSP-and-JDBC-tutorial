@@ -16,9 +16,11 @@
         Cookie thecookie = new Cookie("myapp.favouritelanguage",favlang);
         thecookie.setMaxAge(60*60);
         response.addCookie(thecookie);
-        
-        
-        
-        
      %>
+     <body>
+         Thanks we set your favourite language to ${param.favlanguage}
+         <br/>
+         <br/>
+         <a href="cookieshomepage.jsp">Return to homepage</a>
+     </body>
 </html>

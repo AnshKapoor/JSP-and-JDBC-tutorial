@@ -18,7 +18,7 @@
            if(cookies!=null){
            for(Cookie thecookies:cookies){
            if("myapp.favouritelanguage".equals(thecookies.getName())){
-           favlang = thecookies.getName();
+           favlang = thecookies.getValue();
            
            
            }
@@ -29,5 +29,12 @@
             
             
          %>
+         New books for <%= favlang%>
+         <ul>
+             
+             <li>blah blah blah</li>
+             
+         </ul>
+         <a href="cookies-personalize-form.html">Change your options here</a>
     </body>
 </html>
