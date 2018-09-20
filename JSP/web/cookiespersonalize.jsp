@@ -14,6 +14,8 @@
     <%
         String favlang = request.getParameter("favlanguage");
         Cookie thecookie = new Cookie("myapp.favouritelanguage",favlang);
+        thecookie.setMaxAge(60*60);
+        response.addCookie(thecookie);
         
         
         
